@@ -12,9 +12,9 @@ def find_min_in_nested_arrays(src)
           p src[array_index][nested_index]
         end
       nested_index +=1
-
+      new_array << lowest_temp
     end
-    new_array << lowest_temp
+
     array_index +=1
     end
     new_array
